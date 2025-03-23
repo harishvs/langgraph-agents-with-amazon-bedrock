@@ -65,6 +65,7 @@ Installation commands for other OS can be found here: https://pygraphviz.github.
 cd langgraph-agents-with-amazon-bedrock
 export POETRY_VIRTUALENVS_PATH="$PWD/.venv"
 export INITIAL_WORKING_DIRECTORY=$(pwd)
+pipx inject poetry poetry-plugin-shell
 poetry shell
 ```
 
